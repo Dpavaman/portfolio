@@ -25,24 +25,24 @@ const NavBar = () => {
 
             <a onClick={(e) => {
                 e.preventDefault();
-                window.location.replace(`${url}/#about`)
+                window.location.replace(`${url}#about`)
                 setMenuStatus(false)
             }} id="goToAbout" className="menu-item" href="#about" >About</a>
 
             <a onClick={(e) => {
-                window.location.replace(`${url}/#skills`)
+                window.location.replace(`${url}#skills`)
                 setMenuStatus(false)
             }} id="goToSkills" className="menu-item" href="#skills" >Skills</a>
 
             <a onClick={(e) => {
                 e.preventDefault();
-                window.location.replace(`${url}/#projects`)
+                window.location.replace(`${url}#projects`)
                 setMenuStatus(false)
             }} id="goToProjects" className="menu-item" href="#projects" >Projects</a>
 
             <a onClick={(e) => {
                 e.preventDefault()
-                window.location.replace(`${url}/#contact`)
+                window.location.replace(`${url}#contact`)
                 setMenuStatus(false)
             }} id="goToContact" className="menu-item" href="#contact" >Contact Me</a>
 
