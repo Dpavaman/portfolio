@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.myName{
+    font-family: 'Caveat', cursive;
+    color: #34E5FF;
+}
+
+.animate-navbar{
+    box-shadow: 1px 1px 1px #222;
+    animation: movement 0.5s ease-in-out;
+}
+
+@keyframes movement{
+    from{
+        transform: translateY(-50rem);
+    }
+    to{
+        transform: translateY(0rem);
+    }
+}
+
+.bm-burger-bars {
+    background: #373a47;
+  }
+   
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }

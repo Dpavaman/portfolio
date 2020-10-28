@@ -1,0 +1,77 @@
+.accordian-main {
+    cursor: pointer;
+    display: inline-block;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: 14px;
+    /* background-color: rebeccapurple; */
+    border: none;
+    border-radius: 4px;
+  
+    padding: 10px;
+  }
+  
+  .list-styles {
+    list-style-type: circle;
+  }
+  
+  .image-style1 {
+    width: 3em;
+  }
+
+.projectCard {
+    cursor: pointer;
+    width: 21rem;
+     height: fit-content;
+     transition: 0.5s;
+     display: inline-flex;
+     padding: 5px;
+     margin: 10px;
+     border-radius: 10px;
+     background-color: whitesmoke;
+     /* border: 1px solid black  */
+}
+
+.comingSoon{
+  width: 100% !important;
+}
+
+.projectCard:hover > .image{
+  animation: none;
+}
+
+.image{
+  animation-name: imageAnimation;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: 1.5s;
+}
+
+@keyframes imageAnimation{
+  from{
+    transform: scale(-0.5);
+  }
+  to{
+    transform: scale(0.5);
+  }
+}
+
+Card{
+  display: flex;
+}
+
+.hyperlink{
+  display: grid;
+  text-decoration-color: white;
+  margin: 5px;
+}
+
+.hyperlink:hover{
+  text-decoration: none;
+}
+
+#projects{
+  z-index: 2 !important;
+}
+
