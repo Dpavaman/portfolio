@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { bubble as Menu } from 'react-burger-menu'
+import './NavBar.css'
 
 const NavBar = () => {
     const url = 'https://dpavaman.github.io/portfolio/'
