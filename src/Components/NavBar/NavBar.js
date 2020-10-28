@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { bubble as Menu } from 'react-burger-menu'
 
 const NavBar = () => {
-    const url = 'http://localhost:3000'
+    const url = 'https://dpavaman.github.io/portfolio/'
     const [menuStatus, setMenuStatus] = useState(false)
 
     const handleOnOpen = () => {
