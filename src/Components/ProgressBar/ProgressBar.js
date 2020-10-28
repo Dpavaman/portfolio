@@ -1,10 +1,23 @@
 import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import './ProgressBar.css'
 
-const ProgressBarComponent = ({ complete }) => {
+const ProgressBarComponent = ({ complete, message }) => {
 
     return (
-        <ProgressBar animated now={complete} />
+        <div className='loaderContainer'>
+            <Container>
+                <Row>
+                    <Col xs={12} md={12}>
+                        <div className="content">
+                            <h1 className='loadStatus' >{message}</h1>
+                            <ProgressBar animated now={complete} />
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     )
 }
 

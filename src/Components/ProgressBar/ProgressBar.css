@@ -1,0 +1,19 @@
+.loaderContainer{
+    background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  height: 100vh;
+  width: 100vw;
+  }
+
+  .content{
+      position: absolute;
+      top: 35vh;
+      left: auto;
+      padding: 5vw;
+      width: 80vw;
+  }
+
+  .loadStatus{
+    color: white;
+    font-family: monospace;
+  }

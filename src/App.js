@@ -121,15 +121,13 @@ function App() {
             </div>
           </div>
         ) : (
-            <div className='loaderContainer'>
+            // <div className='loaderContainer'>
+            <>
               <Bounce top >
-                <Container className='loader' >
-                  <h1 className='loadStatus' >{message}</h1>
-                  <ProgressBarComponent complete={complete} />
-                </Container>
+                <ProgressBarComponent message={message} complete={complete} />
               </Bounce>
               <h4 className='copyright' >©Pavaman Dabeer</h4>
-            </div>
+            </>
           )
       }
     </Fragment>

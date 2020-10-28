@@ -172,7 +172,7 @@ const TimeLine = () => {
                         </Card>
 
                         <Card className='projectCard' >
-                            <Card.Title variant='top'>Studen Teacher Assignment Portal </Card.Title>
+                            <Card.Title variant='top'>Student Teacher Assignment Portal </Card.Title>
                             <Card.Img className='image' variant='top' src={StudentTeacherAssignment} style={{ width: '350px', height: '150px' }} />
                             <Accordion.Toggle as={Card.Header} eventKey="4" className="p-2 text-center accordian-main">
                                 <Button variant='outline-primary' size='lg' block > PROJECT DETAILS </Button>

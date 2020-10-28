@@ -5,6 +5,12 @@
     height: 100vh;
 }
 
+@media only screen and (max-width: 600px) {
+    #skills {
+        height: 150vh;
+    }
+    }
+
 .skill-logo{
     margin: 10px;
     display: inline-block;
