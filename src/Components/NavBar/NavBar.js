@@ -17,34 +17,34 @@ const NavBar = () => {
                 <div class="bm-burger-bars" style={{ position: "absolute", height: "20%", left: "0px", right: "0px", top: "80%", opacity: "1" }}></div>
             </div>
         }  >
-            <a onClick={(e) => {
+            <button onClick={(e) => {
                 e.preventDefault();
                 window.location.replace(`${url}#home`)
                 setMenuStatus(false)
-            }} id="goToHome" className="menu-item" href="#home" >Home</a>
+            }} id="goToHome" className="menu-item"  >Home</button>
 
-            <a onClick={(e) => {
+            <button onClick={(e) => {
                 e.preventDefault();
                 window.location.replace(`${url}#about`)
                 setMenuStatus(false)
-            }} id="goToAbout" className="menu-item" href="#about" >About</a>
+            }} id="goToAbout" className="menu-item"  >About</button>
 
-            <a onClick={(e) => {
+            <button onClick={(e) => {
                 window.location.replace(`${url}#skills`)
                 setMenuStatus(false)
-            }} id="goToSkills" className="menu-item" href="#skills" >Skills</a>
+            }} id="goToSkills" className="menu-item"  >Skills</button>
 
-            <a onClick={(e) => {
+            <button onClick={(e) => {
                 e.preventDefault();
                 window.location.replace(`${url}#projects`)
                 setMenuStatus(false)
-            }} id="goToProjects" className="menu-item" href="#projects" >Projects</a>
+            }} id="goToProjects" className="menu-item"  >Projects</button>
 
-            <a onClick={(e) => {
+            <button onClick={(e) => {
                 e.preventDefault()
                 window.location.replace(`${url}#contact`)
                 setMenuStatus(false)
-            }} id="goToContact" className="menu-item" href="#contact" >Contact Me</a>
+            }} id="goToContact" className="menu-item"  >Contact Me</button>
 
         </Menu>
     )
