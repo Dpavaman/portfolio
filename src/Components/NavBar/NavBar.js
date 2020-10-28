@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { bubble as Menu } from 'react-burger-menu'
 
 const NavBar = () => {
-    const url = 'https://dpavaman.github.io/portfolio/#home'
+    const url = 'https://dpavaman.github.io/portfolio/'
     const [menuStatus, setMenuStatus] = useState(false)
 
     const handleOnOpen = () => {
@@ -19,7 +19,7 @@ const NavBar = () => {
         }  >
             <a onClick={(e) => {
                 e.preventDefault();
-                window.location.replace(`${url}`)
+                window.location.replace(`${url}#home`)
                 setMenuStatus(false)
             }} id="goToHome" className="menu-item" href="#home" >Home</a>
 
