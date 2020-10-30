@@ -35,6 +35,7 @@ const NavBar = () => {
             <button onClick={(e) => {
                 window.location.replace(`${url}#skills`)
                 setMenuStatus(true)
+                element.dispatchEvent(new KeyboardEvent('keypress', { 'key': 'esc' }));
             }} id="goToSkills" className="menu-item"  >Skills</button>
 
             <button onClick={(e) => {
