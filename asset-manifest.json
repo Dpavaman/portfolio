@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6b81347c.chunk.css",
-    "main.js": "/portfolio/static/js/main.75e6100f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.75e6100f.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b63dbc51.chunk.css",
+    "main.js": "/portfolio/static/js/main.1af64be2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1af64be2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.ad3b6095.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.ad3b6095.js.map",
-    "static/js/2.c8f9b800.chunk.js": "/portfolio/static/js/2.c8f9b800.chunk.js",
-    "static/js/2.c8f9b800.chunk.js.map": "/portfolio/static/js/2.c8f9b800.chunk.js.map",
+    "static/js/2.87617047.chunk.js": "/portfolio/static/js/2.87617047.chunk.js",
+    "static/js/2.87617047.chunk.js.map": "/portfolio/static/js/2.87617047.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4a3d916143e2703812941376c342b38b.js": "/portfolio/precache-manifest.4a3d916143e2703812941376c342b38b.js",
+    "precache-manifest.76f59e034de14b95e84d88ef7bd07065.js": "/portfolio/precache-manifest.76f59e034de14b95e84d88ef7bd07065.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.6b81347c.chunk.css.map": "/portfolio/static/css/main.6b81347c.chunk.css.map",
-    "static/js/2.c8f9b800.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c8f9b800.chunk.js.LICENSE.txt",
+    "static/css/main.b63dbc51.chunk.css.map": "/portfolio/static/css/main.b63dbc51.chunk.css.map",
+    "static/js/2.87617047.chunk.js.LICENSE.txt": "/portfolio/static/js/2.87617047.chunk.js.LICENSE.txt",
     "static/media/Calculator.png": "/portfolio/static/media/Calculator.5527e10f.png",
     "static/media/Covid-dashboard.png": "/portfolio/static/media/Covid-dashboard.b6b22dd0.png",
     "static/media/HTMLIcon.f1bcf802.svg": "/portfolio/static/media/HTMLIcon.f1bcf802.svg",
@@ -36,13 +36,12 @@
     "static/media/parallax-background.jpg": "/portfolio/static/media/parallax-background.b51f3108.jpg",
     "static/media/project-background.jpg": "/portfolio/static/media/project-background.9aaeded9.jpg",
     "static/media/react.f87688d6.svg": "/portfolio/static/media/react.f87688d6.svg",
-    "static/media/technologies-background.jpg": "/portfolio/static/media/technologies-background.9a62b04a.jpg",
     "static/media/weatherAPI.png": "/portfolio/static/media/weatherAPI.0022f64d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ad3b6095.js",
-    "static/js/2.c8f9b800.chunk.js",
-    "static/css/main.6b81347c.chunk.css",
-    "static/js/main.75e6100f.chunk.js"
+    "static/js/2.87617047.chunk.js",
+    "static/css/main.b63dbc51.chunk.css",
+    "static/js/main.1af64be2.chunk.js"
   ]
 }
