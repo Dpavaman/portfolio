@@ -5,4 +5,4 @@
 
 ### This website is built using REACT.js
 
-#### [Visit my Portfolio website](https://dpavaman.github.io)
+#### [Visit my Portfolio website](https://dpavaman.github.io/portfolio)
