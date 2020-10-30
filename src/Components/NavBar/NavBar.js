@@ -9,7 +9,7 @@ const NavBar = () => {
 
     useEffect(() => {
         setMenuStatus(false);
-    }, [])
+    }, [menuStatus])
 
 
     return (
@@ -23,31 +23,31 @@ const NavBar = () => {
             <button onClick={(e) => {
                 e.preventDefault();
                 window.location.replace(`${url}#home`)
-                setMenuStatus(true)
+                setMenuStatus(!menuStatus)
             }} id="goToHome" className="menu-item"  >Home</button>
 
             <button onClick={(e) => {
                 e.preventDefault();
                 window.location.replace(`${url}#about`)
-                setMenuStatus(true)
+                setMenuStatus(!menuStatus)
             }} id="goToAbout" className="menu-item"  >About</button>
 
             <button onClick={(e) => {
                 window.location.replace(`${url}#skills`)
-                setMenuStatus(true)
-                e.dispatchEvent(new KeyboardEvent('keypress', { 'key': 'esc' }));
+                setMenuStatus(!menuStatus)
+                // e.dispatchEvent(new KeyboardEvent('keypress', { 'key': 'esc' }));
             }} id="goToSkills" className="menu-item"  >Skills</button>
 
             <button onClick={(e) => {
                 e.preventDefault();
                 window.location.replace(`${url}#projects`)
-                setMenuStatus(true)
+                setMenuStatus(!menuStatus)
             }} id="goToProjects" className="menu-item"  >Projects</button>
 
             <button onClick={(e) => {
                 e.preventDefault()
                 window.location.replace(`${url}#contact`)
-                setMenuStatus(true)
+                setMenuStatus(!menuStatus)
             }} id="goToContact" className="menu-item"  >Contact Me</button>
 
         </Menu>
