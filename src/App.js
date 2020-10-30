@@ -14,11 +14,14 @@ import Contact from './Pages/Contact/Contact';
 import FooterComponent from './Pages/Footer/Footer';
 import ProgressBarComponent from './Components/ProgressBar/ProgressBar';
 
+
 function App() {
   const prompts = [
     "LOADING FULL STACK 😊",
     'Please Wait...',
+    "All Set...!"
   ]
+
   const [complete, setComplete] = useState(0)
   const [loaded, setLoaded] = useState(false)
   const [message, setMessage] = useState("")
@@ -29,10 +32,12 @@ function App() {
         const newVal = complete + Math.floor(Math.random() * 50)
         if (newVal > complete) {
           setComplete(newVal)
-          if (complete < 50) {
+          if (complete < 40) {
             setMessage(prompts[0]);
-          } else {
+          } else if (complete > 40 && complete < 65) {
             setMessage(prompts[1]);
+          } else {
+            setMessage(prompts[2]);
           }
         }
       } else {
@@ -74,12 +79,12 @@ function App() {
                   <br /> <br />
                   <Parallax
                     blur={{ min: -30, max: 30 }}
-                    bgImage={require("./Assets/technologies-background.jpg")}
+                    // bgImage={require("./Assets/technologies-background.jpg")}
                     bgImageAlt=""
                     strength={-200}
                   >
                     <div>
-                      <Container className="container-box rounded">
+                      <Container fluid>
                         <Skills />
                       </Container>
                     </div>

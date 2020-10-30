@@ -40,22 +40,8 @@
   animation: none;
 }
 
-.image{
-  animation-name: imageAnimation;
-  animation-direction: alternate;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  transition: 1.5s;
-}
 
-@keyframes imageAnimation{
-  from{
-    transform: scale(-0.5);
-  }
-  to{
-    transform: scale(0.5);
-  }
-}
+
 
 Card{
   display: flex;

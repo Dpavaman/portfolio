@@ -1,6 +1,5 @@
 import React from 'react'
 import './Skills.css'
-import Marquee from "react-smooth-marquee"
 import Slide from 'react-reveal/Slide';
 import { ReactComponent as HTML } from '../../Assets/Technologies/HTMLIcon.svg'
 import { ReactComponent as CSS } from '../../Assets/Technologies/css3.svg'
@@ -21,44 +20,44 @@ const Skills = () => {
     return (
         <div id='skills'>
             <h1 className="pt-3 text-center font-details pb-3" >Technologies I work with</h1>
-            <Container >
+            <Container fluid >
                 <Container className='frontendSkills'>
                     <Row>
                         <Slide top>
-                            <h3 className='techDomain' >Front-end</h3>
-                            <Marquee>
+                            <div className='skillsList'>
+                                <h3 className='techDomain' >Front-end</h3>
                                 <a href="https://en.wikipedia.org/wiki/HTML5" target='_blank' rel='noopener noreferrer' ><HTML className='skill-logo' /></a>
                                 <a href="https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1" target='_blank' rel='noopener noreferrer' ><CSS className='skill-logo' /></a>
                                 <a href="https://www.javascript.com/" target='_blank' rel='noopener noreferrer' ><JS className='skill-logo' /></a>
                                 <a href="https://getbootstrap.com/" target='_blank' rel='noopener noreferrer' ><BOOTSTRAP className='skill-logo' /></a>
                                 <a href="https://reactjs.org/" target='_blank' rel='noopener noreferrer' ><REACT className='skill-logo' /></a>
                                 <a href="https://material-ui.com/" target='_blank' rel='noopener noreferrer' ><MATERIAL className='skill-logo' /></a>
-                            </Marquee>
+                            </div>
                         </Slide>
                     </Row>
                 </Container>
                 <Container className='backendSkills'>
                     <Row>
                         <Slide left>
-                            <h3 className='techDomain' >Back-end</h3>
-                            <Marquee>
+                            <div className='skillsList'>
+                                <h3 className='techDomain' >Back-end</h3>
                                 <a href="https://nodejs.org/en/docs/" target='_blank' rel='noopener noreferrer' ><NODE className='skill-logo' /></a>
                                 <a href="https://docs.npmjs.com/" target='_blank' rel='noopener noreferrer' ><NPM className='skill-logo' /></a>
                                 <a href="https://expressjs.com/en/guide/routing.html" target='_blank' rel='noopener noreferrer' ><EXPRESS className='skill-logo' /></a>
-                            </Marquee>
+                            </div>
                         </Slide>
                     </Row>
                 </Container>
                 <Container className='deploymentSkills'>
                     <Row>
                         <Slide bottom>
-                            <h3 className='techDomain' >Database and Deployment</h3>
-                            <Marquee>
+                            <div className='skillsList'>
+                                <h3 className='techDomain' >Database and Deployment</h3>
                                 <a href="https://www.mongodb.com/" target='_blank' rel='noopener noreferrer' ><MONGO className='skill-logo' /></a>
                                 <a href="https://github.com/" target='_blank' rel='noopener noreferrer' ><GIT className='skill-logo' /></a>
                                 <a href="https://www.netlify.com/" target='_blank' rel='noopener noreferrer' ><NETLIFY className='skill-logo' /></a>
                                 <a href="https://www.heroku.com/" target='_blank' rel='noopener noreferrer' ><HEROKU className='skill-logo' /></a>
-                            </Marquee>
+                            </div>
                         </Slide>
                     </Row>
                 </Container>

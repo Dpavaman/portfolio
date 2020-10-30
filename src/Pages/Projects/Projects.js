@@ -266,7 +266,7 @@ const TimeLine = () => {
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey="updateSoon" className="text-left">
                                 <Card.Body>
-                                    <h2>Updated Soon...!</h2>
+                                    <h2> More Projects will be Updated Soon...!</h2>
                                 </Card.Body>
                             </Accordion.Collapse>
                         </Card>

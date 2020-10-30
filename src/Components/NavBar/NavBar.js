@@ -1,17 +1,19 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { bubble as Menu } from 'react-burger-menu'
+// import { Sidebar, Item } from 'react-sidebar-ui'
 import './NavBar.css'
 
 const NavBar = () => {
     const url = 'https://dpavaman.github.io/portfolio/'
-    const [menuStatus, setMenuStatus] = useState(false)
+    const [menuStatus, setMenuStatus] = useState(true)
 
-    const handleOnOpen = () => {
-        setMenuStatus(true);
-    }
+    useEffect(() => {
+        setMenuStatus(false);
+    }, [menuStatus])
+
 
     return (
-        <Menu width={300} onOpen={handleOnOpen} isOpen={menuStatus} customBurgerIcon={
+        <Menu width={300} isOpen={menuStatus} customBurgerIcon={
             <div className='myBurger'>
                 <div class="bm-burger-bars" style={{ position: "absolute", height: "20%", left: "0px", right: "0px", top: "0%", opacity: "1" }}></div>
                 <div class="bm-burger-bars" style={{ position: "absolute", height: "20%", left: "0px", right: "0px", top: "40%", opacity: " 1" }}></div>
@@ -52,16 +54,6 @@ const NavBar = () => {
 }
 
 export default NavBar
-
-
-
-
-
-
-
-
-
-
 
 
 
