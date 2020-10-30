@@ -9,7 +9,7 @@ const NavBar = () => {
 
     useEffect(() => {
         setMenuStatus(false);
-    }, [menuStatus])
+    }, [])
 
 
     return (
