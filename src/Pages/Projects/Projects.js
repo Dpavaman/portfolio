@@ -262,10 +262,10 @@ const TimeLine = () => {
                         <Card className='projectCard' >
                             <Card.Title variant='top'>Tic Tac Toe-React JS</Card.Title>
                             <Card.Img className='image' variant='top' src={Tictactoe} style={{ width: '350px', height: '150px' }} />
-                            <Accordion.Toggle as={Card.Header} eventKey="5" className="p-2 text-center accordian-main">
+                            <Accordion.Toggle as={Card.Header} eventKey="6" className="p-2 text-center accordian-main">
                                 <Button variant='outline-primary' size='lg' block > PROJECT DETAILS </Button>
                             </Accordion.Toggle>
-                            <Accordion.Collapse eventKey="tic-tac-toe" className="text-left">
+                            <Accordion.Collapse eventKey="6" className="text-left">
                                 <Card.Body>
                                     <b>Description:</b> <br /> This Game App is built using React JS
                                                      <hr />
