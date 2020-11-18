@@ -265,7 +265,7 @@ const TimeLine = () => {
                             <Accordion.Toggle as={Card.Header} eventKey="5" className="p-2 text-center accordian-main">
                                 <Button variant='outline-primary' size='lg' block > PROJECT DETAILS </Button>
                             </Accordion.Toggle>
-                            <Accordion.Collapse eventKey="5" className="text-left">
+                            <Accordion.Collapse eventKey="6" className="text-left">
                                 <Card.Body>
                                     <b>Description:</b> <br /> This Game App is built using React JS
                                                      <hr />
