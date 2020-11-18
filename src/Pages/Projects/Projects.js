@@ -7,6 +7,7 @@ import NYtimes from '../../Assets/Thumbnails/Top-stories-NEWYORKTIMES-API.png'
 import Hangman from '../../Assets/Thumbnails/Hangman-game.png'
 import CovidDashboard from '../../Assets/Thumbnails/Covid-dashboard.png'
 import StudentTeacherAssignment from '../../Assets/Thumbnails/mentor-mentee.png'
+import Tictactoe from '../../Assets/Thumbnails/tic-tac-toe.png'
 import ComingSoon from '../../Assets/Thumbnails/comingSoon.jpg'
 import "./Projects.css";
 import { Accordion, Button, Card, CardGroup, Container } from "react-bootstrap";
@@ -250,6 +251,44 @@ const TimeLine = () => {
                             </Button>
                             </a>
                             <a className='hyperlink' href='https://github.com/Dpavaman/COVID19-DashBoard' target='_blank' rel='noopener noreferrer'>
+                                <Button variant='outline-dark'>
+                                    Source Code
+                            </Button>
+                            </a>
+                        </Card>
+
+
+
+                        <Card className='projectCard' >
+                            <Card.Title variant='top'>Tic Tac Toe-React JS</Card.Title>
+                            <Card.Img className='image' variant='top' src={Tictactoe} style={{ width: '350px', height: '150px' }} />
+                            <Accordion.Toggle as={Card.Header} eventKey="5" className="p-2 text-center accordian-main">
+                                <Button variant='outline-primary' size='lg' block > PROJECT DETAILS </Button>
+                            </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="5" className="text-left">
+                                <Card.Body>
+                                    <b>Description:</b> <br /> This Game App is built using React JS
+                                                     <hr />
+                                    <b>Features:</b>
+                                    <ul className="list-styles pt-1">
+                                        <li>Tic-Tac-Toe App allows two players to place either a CROSS or a CIRCLE on their desired location in a 3X3 grid by clicking on the grid box</li>
+                                        <li>The player who manages to place his symbol (Either cross or circle) in a straingth path of the grid will be announced winner by highlighting respective path </li>
+                                        <li>Button below the play area (grid) restarts the game at any time</li>
+                                    </ul>
+                                    <hr />
+                                    <b>Tech used:</b>
+                                    <ul>
+                                        <li> <span className="p-2"> React </span> </li>
+                                        <li> <span className="p-2">CSS</span> </li>
+                                    </ul>
+                                </Card.Body>
+                            </Accordion.Collapse>
+                            <a className='hyperlink' href='https://tender-hugle-083832.netlify.app/' target='_blank' rel='noopener noreferrer'>
+                                <Button variant='outline-dark'>
+                                    Live Demo
+                            </Button>
+                            </a>
+                            <a className='hyperlink' href='https://github.com/Dpavaman/Tic-Tac-Toe_with_ReactJs' target='_blank' rel='noopener noreferrer'>
                                 <Button variant='outline-dark'>
                                     Source Code
                             </Button>
